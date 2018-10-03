@@ -2,3 +2,12 @@ body {
 	background-color: #f2c7ae;
 	padding-top: 70px;
 }
+
+.jumbotron {
+	background-color: #f2c7ae;
+	color: snow;
+}
+
+.jumbotron p {
+	color: #ce6427;
+}

@@ -1,14 +1,20 @@
 body {
-	background-color: #f2c7ae;
+	background-color: ivory;
 	padding-bottom: 70px;
 	padding-top: 70px;
 }
 
 .jumbotron {
-	background-color: #f2c7ae;
-	color: dimgray;
+	background-color: ivory;
+	color: #ce6427;
+	padding-bottom: 20px;
+
 }
 
 .jumbotron p {
-	color: #ce6427;
+	color: dimgray;
 }
+/*
+.navbar {
+	color: #ce6427;
+}*/

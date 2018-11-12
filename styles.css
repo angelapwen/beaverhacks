@@ -22,7 +22,8 @@ body {
 .card-body {
 	background-color: WhiteSmoke;
 }
-/*
-.navbar {
-	color: #ce6427;
-}*/
+
+.card-text {
+	overflow-y: scroll;
+	height: 100px;
+}

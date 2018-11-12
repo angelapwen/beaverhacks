@@ -43,20 +43,20 @@
 
 <div class="container">
 	<h1 class="text-center display-2 mt-4">Contact Us</h1>
-	<div class="mb-3 text-center">
+	<div class="text-center">
 		We'd love to hear from you! Please reach out to us at osuhackathonclub@gmail.com, or simply fill out this form:
 	</div>
-	<div class="row justify-content-center">
+	<div class="jumbotron">
 		<form id="contact-form" method="post" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php">
-			<div class="row">
-				<div class="col-md-6">
+			<div class="row justify-content-center">
+				<div class="col-md-4">
 					<div class="form-group">
 						<label for="name">First Name</label>
 						<input id="name" type="text" name="name" required="required" data-error="First Name is Required" class="form-control">
 						<div class="help-block with-errors"></div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<div class="form-group">
 						<label for="surname">Last Name</label>
 						<input id="surname" type="text" name="surname" required="required" data-error="Last Name is Required" class="form-control">
@@ -64,8 +64,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
 					<div class="form-group">
 						<label for="email">Email</label>
 						<input id="email" type="email" name="email" class="form-control" required="required" data-error="Email is Required">
@@ -73,15 +73,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
 					<div class="form-group">
 						<label for="message">Your Message</label>
 						<textarea id="message" name="message" class="form-control" placeholder="Please leave us a messsage!" rows="4" required="required" data-error "Please leave us a message"></textarea>
 						<div class="help-block with-errors"></div>
 					</div>
 				</div>
-				<div class="col-md-12">
+				<div class="col-md-8">
 					<input type="submit" name="submit" value="Send Message" class="btn btn-success btn-send">
 				</div>
 			</div>

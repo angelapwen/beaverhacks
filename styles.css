@@ -54,6 +54,13 @@ h1 {
 	font-size: 0.9rem;
 }
 
+.horizontal-card {
+	height:175px;
+	width:1000px;
+	background-color: WhiteSmoke;
+
+}
+
 .container .display-4 {
 	font-style: italic;
 	font-size:2rem;	

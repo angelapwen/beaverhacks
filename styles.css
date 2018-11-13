@@ -27,3 +27,7 @@ body {
 	overflow-y: scroll;
 	height: 100px;
 }
+
+#past-winners-img {
+	width: 1000px;
+}

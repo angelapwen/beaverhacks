@@ -7,6 +7,12 @@ body {
 
 h1 {
 	font-family: 'Nunito', sans-serif;
+	font-size:3rem;
+}
+
+#testimonials {
+	color: #ce6427;
+	font-size: 3rem;
 }
 
 .jumbotron {
@@ -21,7 +27,8 @@ h1 {
 }
 
 .display-2 {
-	color: #ce6427
+	color: #ce6427;
+	font-size:3.5rem;
 }
 
 .card-body {
@@ -31,8 +38,25 @@ h1 {
 .card-text {
 	overflow-y: scroll;
 	height: 200px;
+	font-size: 0.9rem;
 }
 
 .container .display-4 {
 	font-style: italic;
+	font-size:2rem;	
+}
+
+@media (max-width: 1100px) {
+	.card-deck {
+		display:block;
+		width: 100%;
+		margin-bottom:.75rem;
+		table-layout: fixed;
+		border-spacing: 1.25rem 0
+	}
+	.card-deck card{
+		display:block;
+		margin-bottom: .75rem;
+		vertical-align:top;
+	}
 }
